@@ -94,7 +94,7 @@ public class Main {
         int presentYear = 2023;
         int pastYear = presentYear - 200;
         int futureYear = presentYear + 100;
-        for (year=0 +; year <= futureYear; year += 79) {
+        for (year=0 ; year <= futureYear; year += 79) {
             if (year > pastYear) {
                 System.out.println(year);
             }
